@@ -1,8 +1,9 @@
 #!/bin/sh
-NameOfFolder=("xxxxxx")
-SourceOfFolder="/root/xxxx"
-BackupLocation="/backups"
-LOG_FILE="/backups/upload.log"
+NameOfFolder=("xxxxxx")  #备份文件名
+SourceOfFolder="/root/xxxx" #备份文件所在目录
+BackupLocation="/backups" #备份文件暂存目录
+LOG_FILE="/backups/upload.log"  #备份日志文件
+
 date=$(date +"%Y-%m-%d--%H-%M-%S")
 
 if [ ! -d $LOG_FILE ]; then

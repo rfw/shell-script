@@ -1,6 +1,6 @@
 # gdriveBackup.sh
 
-使用 Google Drive 备份文件
+定时将文件备份到Google Drive, 适用于Centos
 
 ### 1. 下载脚本
 
