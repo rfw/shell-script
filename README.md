@@ -1,6 +1,6 @@
 # shell-script
 
-## gdriveBackup.sh
+## [gdriveBackup.sh](/gdriveBackup/README.md)
 
-使用 Google Drive 备份文件
+定时将文件备份到Google Drive。
 

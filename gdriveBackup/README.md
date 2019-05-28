@@ -22,9 +22,9 @@ gdrive程序会自动将你的token保存在用户目录下的.gdrive目录中�
 ### 3.下载脚本
 
 ```
-wget xxxxxx
+wget https://raw.githubusercontent.com/rfw/shell-script/master/gdriveBackup/gdriveBackup.sh
 
-chmod +x xxx
+chmod +x gdriveBackup.sh
 ```
 
 ### 4.创建定时任务
@@ -34,8 +34,9 @@ crontab -e
 ```
 然后输入
 ```
-0 2 * * * /xxxx/.sh  //xxxx替换为脚本目录
+0 2 * * * /xxxx/.sh
 ```
+xxxx替换为脚本目录。
 每日2点备份。
 
 ### 5.重启crontab
