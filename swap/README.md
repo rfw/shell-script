@@ -22,7 +22,7 @@ chmod +x swap.sh
 ./swap.sh
 ```
 
-### 其他说明
+### 其他
 
 #### 查看swap 大小
 
