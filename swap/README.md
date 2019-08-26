@@ -1,6 +1,6 @@
 # swap.sh
 
-Linux VPS 一键添加/删除Swap虚拟内存
+Linux 一键添加/删除Swap虚拟内存
 
 ###### 说明
 * 脚本不支持OpenVZ架构。
