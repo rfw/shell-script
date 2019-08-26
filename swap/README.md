@@ -3,7 +3,7 @@
 Linux 一键添加/删除Swap虚拟内存
 
 ###### 说明
-* 脚本不支持OpenVZ架构。
+* 如果是vps脚本不支持OpenVZ架构。
 * 根目录会创建一个 swapfile 文件。
 
 ### 教程
